@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+html{
+  font-size: 62.8%;
+}
+
+body {
+  background-image: url(/img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caixas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-size: 3em;
+  color: azure;
+}
+
+textarea {
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1.5em;
+  outline: none;
+
+  padding: 1% 0;
+}
+
+.caixaOne {
+  background-color: lightgray;
+  padding: 8% 3%;
+  border-radius: 5px;
+  margin-bottom: px;
+  background: rgba(86, 11, 173, 0.7);
+}
+
+.btn {
+  padding: 2% 1.5%;
+  font-size: 1.5em;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: .6s;
+}
+
+.btn:hover {
+ background-color: rgb(196, 193, 193);
+}
+
+#bt-copy{
+  padding: 0.6em 7em
+}
+
+.caixaTwo {
+  background-color: lightgray;
+  padding: 8% 3%;
+  margin-left: 1%;
+  border-radius: 5px;
+  background: rgba(86, 11, 173, 0.7);
+}
+
+
+

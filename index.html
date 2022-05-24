@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+  </head>
+  <body>
+    <main class="container">      
+        <div class="caixas">
+          <div class="caixaOne">
+            <form action="">
+              <div class="TextoDaArea">
+                <h2 id="">criptografar</h2>
+                <textarea
+                  name="review"
+                  rows="4"
+                  cols="50"
+                  name="input-texto"
+                  id="input-entrada"
+                  placeholder="insira o texto aqui"
+                ></textarea>
+              </div>
+              <input
+                class="btn"
+                type="submit"
+                value="criptografar!"
+                id="bt-cript"
+              />
+              <input
+                class="btn"
+                type="submit"
+                value="descriptografar!"
+                id="bt-descript"
+              />
+            </form>
+          </div>
+          <div class="caixaTwo">
+            <div class="MensagemCriptografada">
+              <h2 id="">Mensagem criptografada:</h2>
+              <textarea
+                name="review"
+                rows="4"
+                cols="50"
+                name="input-texto"
+                id="input-saida"
+                placeholder="insira o texto aqui"
+              ></textarea>
+            </div>
+            <div class="btCopiar">
+              <input class="btn" type="submit" value="copiar" id="bt-copy" />
+            </div>
+          </div>
+        </div>    
+    </main>
+    <script src="/js/decodificador.js"></script>
+  </body>
+</html>

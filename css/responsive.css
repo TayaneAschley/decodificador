@@ -1,0 +1,55 @@
+@media screen and (max-width: 1060px) {
+  body {
+    background-image: url(/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .caixas {
+    flex-direction: column;
+  }
+
+  .caixaOne {
+    margin-bottom: 4%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  html {
+    font-size: 80%;
+  }
+
+  body {
+    background-image: none;
+    background-color: #b5179e;
+    background-repeat: no-repeat;
+    max-height: 150vh;
+    max-width: 150vw;
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 50%;
+  }
+}
