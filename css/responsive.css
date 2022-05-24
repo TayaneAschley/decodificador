@@ -1,6 +1,6 @@
 @media screen and (max-width: 1060px) {
   body {
-    background-image: url(/img/background.png);
+    background-image: url(./img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
